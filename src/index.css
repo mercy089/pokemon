@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Ewert&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Custom class for Ewert font */
+.ewert-regular {
+    font-family: "Ewert", system-ui, sans-serif; /* Add sans-serif fallback */
+    font-weight: 400;
+    font-style: normal;
+}
+
+.PokeCard:hover .PokeImage {
+    transform: scale(1.2); /* Use transform instead of scale */
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
