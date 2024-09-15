@@ -34,8 +34,8 @@ const Card = () => {
         return uniquePokemonData;
       });
 
-      if (data.next) {
-        setOffset((prevOffset) => prevOffset + 20);
+      if (data.results.length > 0) {
+        setOffset((prevOffset) => prevOffset + 5);
       } else {
         setHasMore(false);
       }
