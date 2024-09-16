@@ -105,6 +105,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Pokémon API](https://pokeapi.co/)
 
-```
 
-This `README.md` file includes instructions for adding the search feature and is tailored for a professional presentation. Adjust any URLs or paths to match your actual project details.
