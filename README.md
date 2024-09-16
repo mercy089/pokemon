@@ -106,8 +106,15 @@ Feel free to open issues or submit pull requests if you find any bugs or have su
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
+## Acknowledgements
 
-Made with ❤️ by [Your Name](https://github.com/your-username)
+- [Vite](https://vitejs.dev/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Pokémon API](https://pokeapi.co/)
+
+```
+
+This `README.md` file includes instructions for adding the search feature and is tailored for a professional presentation. Adjust any URLs or paths to match your actual project details.
