@@ -17,7 +17,7 @@ const Card = () => {
     setLoading(true); // Start loading before fetching data
     try {
       // Fetch Pokémon list (limit 20) based on the offset
-      const response = await fetch(`https://pokeapi.co/api/v2/pokemon?limit=20&offset=${offset}`);
+      const response = await fetch(`https://pokeapi.co/api/v2/pokemon?limit=8&offset=${offset}`);
       const data = await response.json();
 
       // Fetch detailed Pokémon information for each Pokémon in the results
@@ -41,7 +41,7 @@ const Card = () => {
 
       // Check if more data is available, else stop loading more
       if (data.results.length > 0) {
-        setOffset((prevOffset) => prevOffset + 20); // Increase offset for next API fetch
+        setOffset((prevOffset) => prevOffset + 8); // Increase offset for next API fetch
       } else {
         setHasMore(false); // No more data to load
       }
