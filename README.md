@@ -13,7 +13,7 @@ A React application that fetches Pokémon data from the PokéAPI, displays the d
 
 ## Demo
 
-![App Screenshot](screenshot.png)
+![App Screenshot](Macbook-Air-2010.9879150390625x1164.9949951171875.png)
 
 ## Technologies Used
 
