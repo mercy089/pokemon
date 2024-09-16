@@ -25,7 +25,13 @@ html, body {
     font-style: normal;
 }
 
-.PokeCard:hover .PokeImage {
-    transform: scale(1.2); /* Use transform instead of scale */
-    transition: transform 0.3s ease-in-out; /* Smooth transition */
+.PokeCard {
+    perspective: 1000px; /* Add perspective to create a 3D effect */
 }
+
+.PokeCard:hover .PokeImage {
+    transform: scale(1.2) rotateX(10deg) rotateY(10deg) translateZ(20px); /* Add 3D transformations */
+    transition: transform 0.5s ease-in-out; /* Smooth transition */
+}
+
+  
