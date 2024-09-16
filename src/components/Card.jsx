@@ -34,7 +34,7 @@ const Card = () => {
         const newPokemonData = [...prevData, ...detailPokemonData]; // Combine old and new data
         const uniquePokemonData = newPokemonData.filter(
           (pokemon, index, self) => 
-            index === self.findIndex((p) => p.id === pokemon.id) // Ensure uniqueness by Pokémon ID
+            index === self.findIndex((p) => p.id === pokemon.id && p.name === pokemon.name) // Ensure uniqueness by Pokémon ID
         );
         return uniquePokemonData;
       });
