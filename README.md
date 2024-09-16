@@ -1,3 +1,4 @@
+
 # Pokémon Infinite Scroll App
 
 A React application that fetches Pokémon data from the PokéAPI, displays the data in a responsive card layout, and allows infinite scrolling to load more Pokémon. The app also includes a search feature to filter Pokémon by name.
@@ -106,15 +107,8 @@ Feel free to open issues or submit pull requests if you find any bugs or have su
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
-## Acknowledgements
+---
 
-- [Vite](https://vitejs.dev/)
-- [React](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Pokémon API](https://pokeapi.co/)
-
-```
-
-This `README.md` file includes instructions for adding the search feature and is tailored for a professional presentation. Adjust any URLs or paths to match your actual project details.
+Made with ❤️ by [Your Name](https://github.com/your-username)
